@@ -1,11 +1,11 @@
 describe('Página de login', () => {
 
-  beforeEach(() => {
-      cy.visit('http://localhost:4200')
-  })
+    beforeEach(() => {
+        cy.visit ('http://localhost:4200/#/home')
+    })
 
-      it('Deve preencher os campos do formulário corretamente e realizar login', () => {
-          cy.contains('carowl', '12345678')
-          })
+        it('Preencher os campos de login corretamente para realizar login', () => {
+        cy.login('catarinap', 'catarina123')
+        })
 
 })

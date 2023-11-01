@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-10-30T18:22:14.107Z",
-    "end": "2023-10-30T18:22:16.279Z",
-    "duration": 2172,
+    "start": "2023-10-30T18:28:19.240Z",
+    "end": "2023-10-30T18:28:21.396Z",
+    "duration": 2156,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e717f068-a69f-41eb-b5fe-6009df719492",
+      "uuid": "f767f29d-ce3e-40c9-93b8-ada7bef53ead",
       "title": "",
       "fullFile": "cypress\\e2e\\login-incorreto.cy.js",
       "file": "cypress\\e2e\\login-incorreto.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c36f6402-538a-4389-8bd8-db16c349cc4a",
+          "uuid": "aea045a4-d55d-4f51-aa0c-adf885bb8774",
           "title": "Página de login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verificar mensagem de campos obrigatórios",
               "fullTitle": "Página de login Verificar mensagem de campos obrigatórios",
               "timedOut": null,
-              "duration": 593,
+              "duration": 595,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://localhost:4200/#/home');\ncy.contains('User name is required!').should('be.visible');\ncy.contains('Password is required!').should('be.visible');",
               "err": {},
-              "uuid": "257fb2c7-9345-4b1e-a5ed-dff7b7557208",
-              "parentUUID": "c36f6402-538a-4389-8bd8-db16c349cc4a",
+              "uuid": "cae04a52-0860-4a9a-8756-56e29b1f9dc1",
+              "parentUUID": "aea045a4-d55d-4f51-aa0c-adf885bb8774",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "257fb2c7-9345-4b1e-a5ed-dff7b7557208"
+            "cae04a52-0860-4a9a-8756-56e29b1f9dc1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 593,
+          "duration": 595,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
