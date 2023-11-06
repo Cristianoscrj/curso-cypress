@@ -10,7 +10,7 @@ describe('Api Alurapic', () => {
                 expect(res.status).to.be.equal(200)
                 expect(res.body).is.not.empty
                 expect(res.body[0]).to.have.property('description')
-                expect(res.body[0].description).to.be.equal('porquinho')
+                expect(res.body[0].description).to.be.equal('pedrinho')
                 
             })
         })
