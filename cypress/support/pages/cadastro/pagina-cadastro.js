@@ -1,12 +1,12 @@
 const el = require('./elements').ELEMENTS;
 
 class Cadastro {
-    acessarPaginaDeCadastro() {
+    acessarPaginaDeCadastro(){
         cy.visit('http://localhost:4200/');
         cy.get('[data-test="register"]').click();
     }
     
-    preencherFormulario() {
+    preencherFormulario(){
         cy.get('input[data-test="email"]').type('lllll@lll.com');
         cy.get('input[data-test="fullName"]').type('Lllll Lllll');
         cy.get('input[data-test="registerUserName"]').type('lllllllll');
